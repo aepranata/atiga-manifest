@@ -23,7 +23,6 @@
     <!-- Remove -->
     <!--<remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />-->
     <remove-project name="android_build" />
-    <remove-project name="android_vendor_gapps" />
 
     <!-- Trees -->
     <!--<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ceer" clone-depth="1" />
@@ -47,5 +46,4 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="vendor/gms" name="vendor_google_pixel"  remote="aelab"  clone-depth="1" />
 </manifest>
