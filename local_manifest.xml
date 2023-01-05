@@ -23,7 +23,6 @@
     <!-- Remove -->
     <!--<remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />-->
     <remove-project name="android_build" />
-    <remove-project name="platform/packages/apps/DocumentsUI" />
 
     <!-- Trees -->
     <!--<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ceer" clone-depth="1" />
@@ -47,5 +46,5 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aehub" revision="13.0" clone-depth="1" />
+    <project path="vendor/xiaomi/miuicamera" name="miuicamera" remote="aelab" revision="master" clone-depth="1" />
 </manifest>
