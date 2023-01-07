@@ -46,5 +46,5 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="vendor/xiaomi/miuicamera" name="miuicamera" remote="aelab" revision="master" clone-depth="1" />
+    <project path="vendor/xiaomi/miuicamera" name="miuicamera" remote="aelab" revision="leica" clone-depth="1" />
 </manifest>
