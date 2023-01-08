@@ -23,6 +23,7 @@
     <!-- Remove -->
     <!--<remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />-->
     <remove-project name="android_build" />
+    <remove-project name="android_frameworks_av" />
 
     <!-- Trees -->
     <!--<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ceer" clone-depth="1" />
@@ -47,4 +48,5 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
     <project path="vendor/xiaomi/miuicamera" name="miuicamera" remote="aelab" revision="leica" clone-depth="1" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="aehub" revision="13" clone-depth="1" />
 </manifest>
