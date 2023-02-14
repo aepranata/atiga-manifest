@@ -23,6 +23,7 @@
     <!-- Remove -->
     <remove-project name="android_hardware_banana_interfaces" />
     <remove-project name="android_frameworks_base" />
+    <remove-project name="android_vendor_banana" />
 
     <!-- Trees -->
     <!--<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ceer" clone-depth="1" />
@@ -38,4 +39,5 @@
     <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="extrahub" revision="13.0" clone-depth="1" />
     <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="aehub" revision="13"  clone-depth="1" />
     <project path="frameworks/base" name="frameworks_base" remote="aehub" revision="13" clone-depth="1" />
+    <project path="vendor/banana" name="vendor_banana" remote="aehub" revision="13" clone-depth="1" />
 </manifest>
