@@ -41,4 +41,5 @@
     <project path="frameworks/base" name="frameworks_base" remote="aehub" revision="13" clone-depth="1" />
     <project path="vendor/banana" name="vendor_banana" remote="aehub" revision="13" clone-depth="1" />-->
     <!--<project path="packages/apps/SetupWizard" name="travarilo/SetupWizard" remote="extrahub" revision="13" clone-depth="1" />-->
+    <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="extrahub" revision="qcom" clone-depth="1" />
 </manifest>
