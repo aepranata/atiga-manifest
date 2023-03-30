@@ -22,6 +22,7 @@
 
     <!-- Remove -->
     <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+    <remove-project name="LineageOS/android_system_core" />
 
     <!-- Trees -->
     
@@ -31,5 +32,6 @@
     
     <!-- Extra -->
     <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="extrahub" revision="qcom" clone-depth="1" />
-    <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="backup/main_20230314" />
+    <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="backup/main_20230314" clone-depth="1" />
+    <project path="system/core" name="Atiga/android_system_core" groups="pdk" remote="extralab" revision="atiga-1.0" clone-depth="1" />
 </manifest>
